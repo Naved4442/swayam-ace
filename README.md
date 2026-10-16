@@ -98,6 +98,4 @@ The generated `dist/` directory is ignored by Git because Cloudflare Pages build
 - Progress is local to one browser and is not an account-backed sync service.
 - PDF extraction depends on the source layout and should be rerun and reviewed when the source PDFs change.
 
-## Contributing
 
-Keep source PDFs unchanged, update the importer rather than hand-editing generated data, and run the importer, tests, and production build before opening a change. Do not commit `.env` files, credentials, `node_modules`, `dist`, or local build metadata.
