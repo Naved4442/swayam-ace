@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "w1-q1",
+    "week": 1,
+    "question": "Ecology is the scientific study of that determine the distribution and abundance of organisms. (Fill",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "statics"
+      },
+      {
+        "id": "b",
+        "text": "interactions"
+      },
+      {
+        "id": "c",
+        "text": "dynamics"
+      },
+      {
+        "id": "d",
+        "text": "habitat"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q2",
+    "week": 1,
+    "question": "Carolus Linnaeus is considered the father of:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Biogeography"
+      },
+      {
+        "id": "b",
+        "text": "Modern taxonomy"
+      },
+      {
+        "id": "c",
+        "text": "Population ecology"
+      },
+      {
+        "id": "d",
+        "text": "Botanical geography"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q3",
+    "week": 1,
+    "question": "\"Enquiry into plants\" is a book written by",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Theophrastus"
+      },
+      {
+        "id": "b",
+        "text": "Linnaeus"
+      },
+      {
+        "id": "c",
+        "text": "Malthus"
+      },
+      {
+        "id": "d",
+        "text": "Humboldt"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q4",
+    "week": 1,
+    "question": "Who amongst these is considered the father of Biogeography?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Theophrastus"
+      },
+      {
+        "id": "b",
+        "text": "Linnaeus"
+      },
+      {
+        "id": "c",
+        "text": "Malthus"
+      },
+      {
+        "id": "d",
+        "text": "Humboldt"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q5",
+    "week": 1,
+    "question": "Genetic adaptation refers to:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "High reproductive rate in one generation"
+      },
+      {
+        "id": "b",
+        "text": "Inheritable fitness"
+      },
+      {
+        "id": "c",
+        "text": "Physical strength of an individual"
+      },
+      {
+        "id": "d",
+        "text": "Short-term environmental comfort"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q6",
+    "week": 1,
+    "question": "Thomas Robert Malthus influenced studies in:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community ecology"
+      },
+      {
+        "id": "b",
+        "text": "Marine ecology"
+      },
+      {
+        "id": "c",
+        "text": "Population ecology"
+      },
+      {
+        "id": "d",
+        "text": "Behavioural ecology"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q7",
+    "week": 1,
+    "question": "Which approach tests ecological ideas through experiments?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Theoretical approach"
+      },
+      {
+        "id": "b",
+        "text": "Field approach"
+      },
+      {
+        "id": "c",
+        "text": "Laboratory approach"
+      },
+      {
+        "id": "d",
+        "text": "Descriptive approach"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q8",
+    "week": 1,
+    "question": "Which approach mainly depends on direct observation of organisms in natural surroundings?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Laboratory approach"
+      },
+      {
+        "id": "b",
+        "text": "Historical approach"
+      },
+      {
+        "id": "c",
+        "text": "Theoretical approach"
+      },
+      {
+        "id": "d",
+        "text": "Field approach"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q9",
+    "week": 1,
+    "question": "In the Greek word root of Ecology, logos refers to",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "household"
+      },
+      {
+        "id": "b",
+        "text": "preservation"
+      },
+      {
+        "id": "c",
+        "text": "environment"
+      },
+      {
+        "id": "d",
+        "text": "study"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w1-q10",
+    "week": 1,
+    "question": "Charles Darwin is associated with:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "The theory of ecosystem formation"
+      },
+      {
+        "id": "b",
+        "text": "The theory of taxonomy"
+      },
+      {
+        "id": "c",
+        "text": "The theory of botanical geography"
+      },
+      {
+        "id": "d",
+        "text": "The theory of evolution and natural selection"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 1 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q1",
+    "week": 2,
+    "question": "Hierarchy emerges almost inevitably through a wide variety of evolutionary processes, for the",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "perfect"
+      },
+      {
+        "id": "b",
+        "text": "imperfect"
+      },
+      {
+        "id": "c",
+        "text": "stable"
+      },
+      {
+        "id": "d",
+        "text": "unstable"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q2",
+    "week": 2,
+    "question": "Which level is formed when similar cells and their extracellular matrix from the same origin",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Organ"
+      },
+      {
+        "id": "b",
+        "text": "Tissue"
+      },
+      {
+        "id": "c",
+        "text": "Organ system"
+      },
+      {
+        "id": "d",
+        "text": "Population"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q3",
+    "week": 2,
+    "question": "\"the diversity that exists within an ecosystem\" is",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "alpha (α) biodiversity"
+      },
+      {
+        "id": "b",
+        "text": "beta (β) biodiversity"
+      },
+      {
+        "id": "c",
+        "text": "gamma (γ) biodiversity"
+      },
+      {
+        "id": "d",
+        "text": "delta (δ) biodiversity"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q4",
+    "week": 2,
+    "question": "\"groups of actually or potentially interbreeding natural populations, which are reproductively",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "cells"
+      },
+      {
+        "id": "b",
+        "text": "species"
+      },
+      {
+        "id": "c",
+        "text": "ecosystems"
+      },
+      {
+        "id": "d",
+        "text": "biomes"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q5",
+    "week": 2,
+    "question": "The emergent principle can be stated as",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whole = sum of parts"
+      },
+      {
+        "id": "b",
+        "text": "Whole < sum of parts"
+      },
+      {
+        "id": "c",
+        "text": "Whole > sum of parts"
+      },
+      {
+        "id": "d",
+        "text": "None of these"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q6",
+    "week": 2,
+    "question": "The smallest unit of life is the:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cell"
+      },
+      {
+        "id": "b",
+        "text": "Tissue"
+      },
+      {
+        "id": "c",
+        "text": "Organ"
+      },
+      {
+        "id": "d",
+        "text": "Organism"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q7",
+    "week": 2,
+    "question": "The diversity of genetic information present at the levels of phyla, families, species, populations",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ecosystem biodiversity"
+      },
+      {
+        "id": "b",
+        "text": "Species evenness"
+      },
+      {
+        "id": "c",
+        "text": "Genetic biodiversity"
+      },
+      {
+        "id": "d",
+        "text": "Species richness"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q8",
+    "week": 2,
+    "question": "The value of leaving use and non-use values for future generations is called:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Altruistic value"
+      },
+      {
+        "id": "b",
+        "text": "Option value"
+      },
+      {
+        "id": "c",
+        "text": "Existence value"
+      },
+      {
+        "id": "d",
+        "text": "Bequest value"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q9",
+    "week": 2,
+    "question": "Value arising even though a resource is not being used is called:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Direct value"
+      },
+      {
+        "id": "b",
+        "text": "Indirect value"
+      },
+      {
+        "id": "c",
+        "text": "Non-use value"
+      },
+      {
+        "id": "d",
+        "text": "Productive value"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w2-q10",
+    "week": 2,
+    "question": "Species richness refers to:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "The distribution of individuals among different species"
+      },
+      {
+        "id": "b",
+        "text": "The genetic variation within one population"
+      },
+      {
+        "id": "c",
+        "text": "The number of ecosystems in a biome"
+      },
+      {
+        "id": "d",
+        "text": "The number of species present"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 2 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q1",
+    "week": 3,
+    "question": "I observe a bird take a tick out of another bird's head and eat it. In the social context, this",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "tick hunting"
+      },
+      {
+        "id": "b",
+        "text": "auto grooming"
+      },
+      {
+        "id": "c",
+        "text": "allo grooming"
+      },
+      {
+        "id": "d",
+        "text": "foraging"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q2",
+    "week": 3,
+    "question": "Leech is an example of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "endoparasite"
+      },
+      {
+        "id": "b",
+        "text": "herbivore predator"
+      },
+      {
+        "id": "c",
+        "text": "parasitoid"
+      },
+      {
+        "id": "d",
+        "text": "ectoparasite"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q3",
+    "week": 3,
+    "question": "An ecological interaction in which both participating organisms are harmed is called",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "mutualism"
+      },
+      {
+        "id": "b",
+        "text": "commensalism"
+      },
+      {
+        "id": "c",
+        "text": "competition"
+      },
+      {
+        "id": "d",
+        "text": "neutralism"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q4",
+    "week": 3,
+    "question": "Interspecific interaction occurs between",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "members of different species"
+      },
+      {
+        "id": "b",
+        "text": "members of the same species"
+      },
+      {
+        "id": "c",
+        "text": "two organisms that are both benefited"
+      },
+      {
+        "id": "d",
+        "text": "two organisms that remain unaffected"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q5",
+    "week": 3,
+    "question": "The distance maintained by nesting penguins to avoid pecking from neighbours is related to",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "herbivory"
+      },
+      {
+        "id": "b",
+        "text": "parasitoid pressure"
+      },
+      {
+        "id": "c",
+        "text": "prey switching"
+      },
+      {
+        "id": "d",
+        "text": "territorial spacing"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q6",
+    "week": 3,
+    "question": "A parasite that lives inside the body of its host is called",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "ectoparasite"
+      },
+      {
+        "id": "b",
+        "text": "endoparasite"
+      },
+      {
+        "id": "c",
+        "text": "predator"
+      },
+      {
+        "id": "d",
+        "text": "commensal"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q7",
+    "week": 3,
+    "question": "Birds on giraffe are an example of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "colony"
+      },
+      {
+        "id": "b",
+        "text": "commensalism"
+      },
+      {
+        "id": "c",
+        "text": "protocooperation"
+      },
+      {
+        "id": "d",
+        "text": "allelopathy"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q8",
+    "week": 3,
+    "question": "Competition in which organisms directly consume a limited resource so that less remains for",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "interference competition"
+      },
+      {
+        "id": "b",
+        "text": "exploitative competition"
+      },
+      {
+        "id": "c",
+        "text": "apparent competition"
+      },
+      {
+        "id": "d",
+        "text": "neutral competition"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q9",
+    "week": 3,
+    "question": "Interference competition is also known as",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "apparent competition"
+      },
+      {
+        "id": "b",
+        "text": "contest competition"
+      },
+      {
+        "id": "c",
+        "text": "niche competition"
+      },
+      {
+        "id": "d",
+        "text": "exploitative competition"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w3-q10",
+    "week": 3,
+    "question": "The scientific study of animal behaviour is called",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "behaviourism"
+      },
+      {
+        "id": "b",
+        "text": "ecology"
+      },
+      {
+        "id": "c",
+        "text": "ethology"
+      },
+      {
+        "id": "d",
+        "text": "prey-predator dynamics"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 3 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q1",
+    "week": 4,
+    "question": "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain,",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "hawk is producer"
+      },
+      {
+        "id": "b",
+        "text": "hawk is consumer and carnivore"
+      },
+      {
+        "id": "c",
+        "text": "hawk is consumer and herbivore"
+      },
+      {
+        "id": "d",
+        "text": "hawk is decomposer"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q2",
+    "week": 4,
+    "question": "Trees → Birds → Parasites → Hyperparasites represents",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "upright pyramid of numbers"
+      },
+      {
+        "id": "b",
+        "text": "inverted pyramid of numbers"
+      },
+      {
+        "id": "c",
+        "text": "spindle pyramid of numbers"
+      },
+      {
+        "id": "d",
+        "text": "dumb-bell pyramid of numbers"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q3",
+    "week": 4,
+    "question": "Glacial lakes are typical examples of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "eutrophic lakes"
+      },
+      {
+        "id": "b",
+        "text": "hypereutrophic lakes"
+      },
+      {
+        "id": "c",
+        "text": "oligotrophic lakes"
+      },
+      {
+        "id": "d",
+        "text": "mesotrophic lakes"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q4",
+    "week": 4,
+    "question": "In a grazing food chain, the first trophic level after producers is generally occupied by:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Carnivores"
+      },
+      {
+        "id": "b",
+        "text": "Decomposers"
+      },
+      {
+        "id": "c",
+        "text": "Detritivores"
+      },
+      {
+        "id": "d",
+        "text": "Herbivores"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q5",
+    "week": 4,
+    "question": "Which statement correctly defines net primary production?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Energy intercepted by producers from the Sun"
+      },
+      {
+        "id": "b",
+        "text": "Total energy lost during transfer between trophic levels"
+      },
+      {
+        "id": "c",
+        "text": "Gross primary production minus energy lost through respiration per unit time"
+      },
+      {
+        "id": "d",
+        "text": "Energy stored only in herbivore biomass"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q6",
+    "week": 4,
+    "question": "Which statement correctly defines gross primary production?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Energy fixed through photosynthesis per unit time"
+      },
+      {
+        "id": "b",
+        "text": "Energy lost by organisms through respiration per unit time"
+      },
+      {
+        "id": "c",
+        "text": "Total number of producers in an ecosystem"
+      },
+      {
+        "id": "d",
+        "text": "Organic matter consumed by herbivores per unit time"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q7",
+    "week": 4,
+    "question": "Which chain best represents a detritus food chain?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fallen leaves → detritivores → small fish → large fish"
+      },
+      {
+        "id": "b",
+        "text": "Grass → chital → tiger"
+      },
+      {
+        "id": "c",
+        "text": "Rat → flea → parasitic protozoa"
+      },
+      {
+        "id": "d",
+        "text": "Phytoplankton → zooplankton → fish → sea lion"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q8",
+    "week": 4,
+    "question": "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. As we move up",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "available energy decreases"
+      },
+      {
+        "id": "b",
+        "text": "available energy increases"
+      },
+      {
+        "id": "c",
+        "text": "available energy remains same"
+      },
+      {
+        "id": "d",
+        "text": "available energy is zero everywhere"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q9",
+    "week": 4,
+    "question": "Which statement correctly describes a decomposer?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "It only feeds on living plants"
+      },
+      {
+        "id": "b",
+        "text": "It consumes only primary consumers"
+      },
+      {
+        "id": "c",
+        "text": "It converts dead material into soil and recycles nutrients"
+      },
+      {
+        "id": "d",
+        "text": "It always occupies the quaternary trophic level"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w4-q10",
+    "week": 4,
+    "question": "Which description best defines a heterotroph?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "An organism that converts sunlight directly into inorganic nutrients"
+      },
+      {
+        "id": "b",
+        "text": "An organism that cannot produce its own food and depends on organic carbon from other"
+      },
+      {
+        "id": "c",
+        "text": "An organism that uses chemical reactions to manufacture minerals"
+      },
+      {
+        "id": "d",
+        "text": "An organism that occupies only the first trophic level"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 4 Solutions.docx.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q1",
+    "week": 5,
+    "question": "In population dynamics, which pair represents additions to an existing population?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mortality and emigration"
+      },
+      {
+        "id": "b",
+        "text": "Natality and immigration"
+      },
+      {
+        "id": "c",
+        "text": "Mortality and natality"
+      },
+      {
+        "id": "d",
+        "text": "Immigration and emigration"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q2",
+    "week": 5,
+    "question": "Cover board surveys are typically used for sampling",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "herpetofauna"
+      },
+      {
+        "id": "b",
+        "text": "fishes"
+      },
+      {
+        "id": "c",
+        "text": "large mammals"
+      },
+      {
+        "id": "d",
+        "text": "carnivores"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q3",
+    "week": 5,
+    "question": "Pan traps are used for sampling",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "bees"
+      },
+      {
+        "id": "b",
+        "text": "butterflies"
+      },
+      {
+        "id": "c",
+        "text": "non-pollinator insects"
+      },
+      {
+        "id": "d",
+        "text": "pollinator insects"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q4",
+    "week": 5,
+    "question": "A sampling procedure such that each possible combination of sampling units out of the",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Simple random sampling"
+      },
+      {
+        "id": "b",
+        "text": "Systematic sampling"
+      },
+      {
+        "id": "c",
+        "text": "Stratified sampling"
+      },
+      {
+        "id": "d",
+        "text": "Multistage sampling"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q5",
+    "week": 5,
+    "question": "The minimum replacement level fertility for a population to grow should be greater than",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q6",
+    "week": 5,
+    "question": "A list of sampling units is called a:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sample"
+      },
+      {
+        "id": "b",
+        "text": "Sampling intensity"
+      },
+      {
+        "id": "c",
+        "text": "Sampling frame"
+      },
+      {
+        "id": "d",
+        "text": "Stratum"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q7",
+    "week": 5,
+    "question": "In capture-recapture method, the first stage involves:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Counting faecal pellets"
+      },
+      {
+        "id": "b",
+        "text": "Removing trapped animals permanently"
+      },
+      {
+        "id": "c",
+        "text": "Estimating bait consumption"
+      },
+      {
+        "id": "d",
+        "text": "Capturing, marking and releasing animals"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q8",
+    "week": 5,
+    "question": "The logistic growth equation, when plotted, appears",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "I shaped"
+      },
+      {
+        "id": "b",
+        "text": "J shaped"
+      },
+      {
+        "id": "c",
+        "text": "S shaped"
+      },
+      {
+        "id": "d",
+        "text": "O shaped"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q9",
+    "week": 5,
+    "question": "employs a simple rule of selecting every kth unit starting with a number chosen at",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Simple random sampling"
+      },
+      {
+        "id": "b",
+        "text": "Systematic sampling"
+      },
+      {
+        "id": "c",
+        "text": "Stratified sampling"
+      },
+      {
+        "id": "d",
+        "text": "Multistage sampling"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w5-q10",
+    "week": 5,
+    "question": "Which of these is not a measure of absolute population density?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "total count"
+      },
+      {
+        "id": "b",
+        "text": "pelt count"
+      },
+      {
+        "id": "c",
+        "text": "capture-recapture method"
+      },
+      {
+        "id": "d",
+        "text": "removal method"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 5 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q1",
+    "week": 6,
+    "question": "A guild is a group of species that",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Occupy only one climax community"
+      },
+      {
+        "id": "b",
+        "text": "Have identical population size"
+      },
+      {
+        "id": "c",
+        "text": "Utilise resources in a similar way"
+      },
+      {
+        "id": "d",
+        "text": "Are confined to saline habitats"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q2",
+    "week": 6,
+    "question": "The climax near Tindni village is being controlled by disturbance by cattle. This is an example",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "climatic climax"
+      },
+      {
+        "id": "b",
+        "text": "edaphic climax"
+      },
+      {
+        "id": "c",
+        "text": "disclimax"
+      },
+      {
+        "id": "d",
+        "text": "catastrophic climax"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q3",
+    "week": 6,
+    "question": "Species abundance may be expressed in terms of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Climate, soil and slope"
+      },
+      {
+        "id": "b",
+        "text": "Number of individuals, biomass or cover"
+      },
+      {
+        "id": "c",
+        "text": "Hydrosere, xerosere and halosere"
+      },
+      {
+        "id": "d",
+        "text": "Resistance, resilience and stability"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q4",
+    "week": 6,
+    "question": "Resistance refers to the ability of a community to",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Recover quickly after disturbance"
+      },
+      {
+        "id": "b",
+        "text": "Persist without change in the face of disturbance"
+      },
+      {
+        "id": "c",
+        "text": "Increase the number of pioneer species"
+      },
+      {
+        "id": "d",
+        "text": "Replace one seral stage with another"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q5",
+    "week": 6,
+    "question": "Importance value can be written as",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Relative density + Relative frequency X Relative dominance"
+      },
+      {
+        "id": "b",
+        "text": "Relative density X Relative frequency + Relative dominance"
+      },
+      {
+        "id": "c",
+        "text": "Relative density + Relative frequency + Relative dominance"
+      },
+      {
+        "id": "d",
+        "text": "Relative density X Relative frequency X Relative dominance"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q6",
+    "week": 6,
+    "question": "Secondary succession refers to succession that occurs",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "On newly exposed rock or sand surfaces"
+      },
+      {
+        "id": "b",
+        "text": "In a saline body such as a marsh"
+      },
+      {
+        "id": "c",
+        "text": "After severe disturbance or removal of a pre-existing community"
+      },
+      {
+        "id": "d",
+        "text": "Only when climate controls the final community"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q7",
+    "week": 6,
+    "question": "Lithosere is an example of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "hydrosere"
+      },
+      {
+        "id": "b",
+        "text": "xerosere"
+      },
+      {
+        "id": "c",
+        "text": "psammosere"
+      },
+      {
+        "id": "d",
+        "text": "halosere"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q8",
+    "week": 6,
+    "question": "A transition area where two communities meet and integrate is called",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Habitat"
+      },
+      {
+        "id": "b",
+        "text": "Niche"
+      },
+      {
+        "id": "c",
+        "text": "Ecotone"
+      },
+      {
+        "id": "d",
+        "text": "Sere"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q9",
+    "week": 6,
+    "question": "Which of these is correct?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fundamental niche > Realised niche"
+      },
+      {
+        "id": "b",
+        "text": "Fundamental niche = Realised niche"
+      },
+      {
+        "id": "c",
+        "text": "Fundamental niche < Realised niche"
+      },
+      {
+        "id": "d",
+        "text": "a or b"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w6-q10",
+    "week": 6,
+    "question": "Species richness refers to",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Number of species"
+      },
+      {
+        "id": "b",
+        "text": "Number of individuals of one species"
+      },
+      {
+        "id": "c",
+        "text": "Biomass of the dominant species"
+      },
+      {
+        "id": "d",
+        "text": "Basal area of all trees"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 6 Solutions.docx.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q1",
+    "week": 7,
+    "question": "In an estuary, species may use areas of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "high, intermediate, and low salinity"
+      },
+      {
+        "id": "b",
+        "text": "only high temperature and high fertility"
+      },
+      {
+        "id": "c",
+        "text": "only alpine wind and poor soil"
+      },
+      {
+        "id": "d",
+        "text": "only forest canopy and grassland patches"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q2",
+    "week": 7,
+    "question": "The movement of individuals away from their place of birth or hatching or seed production",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "translocation"
+      },
+      {
+        "id": "b",
+        "text": "migration"
+      },
+      {
+        "id": "c",
+        "text": "dispersal"
+      },
+      {
+        "id": "d",
+        "text": "drifting"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q3",
+    "week": 7,
+    "question": "Transplantation experiments are used to find",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "potential range"
+      },
+      {
+        "id": "b",
+        "text": "effective range"
+      },
+      {
+        "id": "c",
+        "text": "actual range"
+      },
+      {
+        "id": "d",
+        "text": "economic range"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q4",
+    "week": 7,
+    "question": "Pneumatophores are roots that",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "move downward to store excess salts"
+      },
+      {
+        "id": "b",
+        "text": "spread into sand dunes to stop wind erosion"
+      },
+      {
+        "id": "c",
+        "text": "grow upward from the ground to obtain air"
+      },
+      {
+        "id": "d",
+        "text": "become thorns to reduce transpiration"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q5",
+    "week": 7,
+    "question": "At night, cooler and denser air from upper hill areas flows down towards the valley. This",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "valley breeze"
+      },
+      {
+        "id": "b",
+        "text": "hill wind"
+      },
+      {
+        "id": "c",
+        "text": "ocean breeze"
+      },
+      {
+        "id": "d",
+        "text": "estuary current"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q6",
+    "week": 7,
+    "question": "Flamingos in the Rann of Kutch are associated with water bodies because they need",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "high wind speeds and snow-covered slopes"
+      },
+      {
+        "id": "b",
+        "text": "food organisms in water and safe breeding conditions"
+      },
+      {
+        "id": "c",
+        "text": "dry deciduous leaves for summer feeding"
+      },
+      {
+        "id": "d",
+        "text": "tall coniferous trees for nesting"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q7",
+    "week": 7,
+    "question": "Estuaries are specialized habitats because they contain",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "only freshwater throughout the year"
+      },
+      {
+        "id": "b",
+        "text": "only saline water throughout the year"
+      },
+      {
+        "id": "c",
+        "text": "only dry land and thorny shrubs"
+      },
+      {
+        "id": "d",
+        "text": "a meeting zone of freshwater and saline water"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q8",
+    "week": 7,
+    "question": "The movement of lions across the Gir landscape is an example of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "diffusion"
+      },
+      {
+        "id": "b",
+        "text": "secular dispersal"
+      },
+      {
+        "id": "c",
+        "text": "jump dispersal"
+      },
+      {
+        "id": "d",
+        "text": "drifting"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q9",
+    "week": 7,
+    "question": "Mangroves are adapted to areas that experience",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "low salinity and permanent dryness"
+      },
+      {
+        "id": "b",
+        "text": "snow accumulation and alpine winds"
+      },
+      {
+        "id": "c",
+        "text": "deep desert sand with no water movement"
+      },
+      {
+        "id": "d",
+        "text": "high salinity and partial or complete inundation"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w7-q10",
+    "week": 7,
+    "question": "Scarcity of food is a",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "chemical factor"
+      },
+      {
+        "id": "b",
+        "text": "demographic factor"
+      },
+      {
+        "id": "c",
+        "text": "push factor"
+      },
+      {
+        "id": "d",
+        "text": "pull factor"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 7 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q1",
+    "week": 8,
+    "question": "Which of these correctly represents the process of habitat fragmentation and loss?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Original forest → Dissection → Perforation → Fragmentation → Attrition"
+      },
+      {
+        "id": "b",
+        "text": "Original forest → Dissection → Attrition → Fragmentation → Perforation"
+      },
+      {
+        "id": "c",
+        "text": "Original forest → Dissection → Perforation → Attrition → Fragmentation"
+      },
+      {
+        "id": "d",
+        "text": "Original forest → Dissection → Fragmentation → Perforation → Attrition"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q2",
+    "week": 8,
+    "question": "Habitat degradation means",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "complete removal of all organisms from an area"
+      },
+      {
+        "id": "b",
+        "text": "legal declaration of a protected area"
+      },
+      {
+        "id": "c",
+        "text": "breaking a forest into administrative zones"
+      },
+      {
+        "id": "d",
+        "text": "reduction in habitat quality for a given species"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q3",
+    "week": 8,
+    "question": "When area is reduced by 90% and z is taken as 0.30, species richness approximately",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "one-tenth of the original"
+      },
+      {
+        "id": "b",
+        "text": "half of the original"
+      },
+      {
+        "id": "c",
+        "text": "double the original"
+      },
+      {
+        "id": "d",
+        "text": "unchanged"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q4",
+    "week": 8,
+    "question": "Breaking a natural landscape into small isolated parcels within human-dominated land is",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "habitat restoration"
+      },
+      {
+        "id": "b",
+        "text": "habitat fragmentation"
+      },
+      {
+        "id": "c",
+        "text": "ex-situ preservation"
+      },
+      {
+        "id": "d",
+        "text": "seed dormancy"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q5",
+    "week": 8,
+    "question": "We prefer those areas for the creation of a conservation reserve where the level of threat is",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "very high"
+      },
+      {
+        "id": "b",
+        "text": "medium"
+      },
+      {
+        "id": "c",
+        "text": "very low"
+      },
+      {
+        "id": "d",
+        "text": "non-existent"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q6",
+    "week": 8,
+    "question": "A very small population moves towards extinction mainly because of Allee effect, chance",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "habitat displacement"
+      },
+      {
+        "id": "b",
+        "text": "small population paradigm"
+      },
+      {
+        "id": "c",
+        "text": "reserve design"
+      },
+      {
+        "id": "d",
+        "text": "biodiversity repository"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q7",
+    "week": 8,
+    "question": "A population becomes smaller because its habitat is shrinking, competitors are increasing,",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "declining population paradigm"
+      },
+      {
+        "id": "b",
+        "text": "small population paradigm"
+      },
+      {
+        "id": "c",
+        "text": "island biogeography model"
+      },
+      {
+        "id": "d",
+        "text": "cryopreservation strategy"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q8",
+    "week": 8,
+    "question": "Which of these is a deterministic factor?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "environmental variation"
+      },
+      {
+        "id": "b",
+        "text": "forest fire"
+      },
+      {
+        "id": "c",
+        "text": "death rate"
+      },
+      {
+        "id": "d",
+        "text": "diseases"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q9",
+    "week": 8,
+    "question": "Roads, railways, dams, and similar structures contribute to fragmentation because they may",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "mortality sources and physical barriers"
+      },
+      {
+        "id": "b",
+        "text": "seed collection centres"
+      },
+      {
+        "id": "c",
+        "text": "botanical repositories"
+      },
+      {
+        "id": "d",
+        "text": "cryopreservation facilities"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w8-q10",
+    "week": 8,
+    "question": "The acronym HIPPO does not include",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "habitat loss"
+      },
+      {
+        "id": "b",
+        "text": "invasive species"
+      },
+      {
+        "id": "c",
+        "text": "pollination"
+      },
+      {
+        "id": "d",
+        "text": "pollution"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 8 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q1",
+    "week": 9,
+    "question": "A proposed epoch marked by significant human impact on Earth’s geology and ecosystems is",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Holocene"
+      },
+      {
+        "id": "b",
+        "text": "Anthropocene"
+      },
+      {
+        "id": "c",
+        "text": "Pleistocene"
+      },
+      {
+        "id": "d",
+        "text": "Carboniferous"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q2",
+    "week": 9,
+    "question": "According to Malthusian model,",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Population grows in geometric progression, food supply increases in arithmetic"
+      },
+      {
+        "id": "b",
+        "text": "Population grows in geometric progression, food supply increases in geometric progression"
+      },
+      {
+        "id": "c",
+        "text": "Population grows in arithmetic progression, food supply increases in arithmetic progression"
+      },
+      {
+        "id": "d",
+        "text": "Population grows in arithmetic progression, food supply increases in geometric progression"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q3",
+    "week": 9,
+    "question": "Which of these is not a pillar of sustainability?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "environmental sustainability"
+      },
+      {
+        "id": "b",
+        "text": "economic sustainability"
+      },
+      {
+        "id": "c",
+        "text": "trans-boundary sustainability"
+      },
+      {
+        "id": "d",
+        "text": "social sustainability"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q4",
+    "week": 9,
+    "question": "The demographic transition sees a society move from",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "high birth rate, low death rate to low birth rate, low death rate"
+      },
+      {
+        "id": "b",
+        "text": "low birth rate, high death rate to low birth rate, low death rate"
+      },
+      {
+        "id": "c",
+        "text": "high birth rate, high death rate to low birth rate, low death rate"
+      },
+      {
+        "id": "d",
+        "text": "high birth rate, high death rate to low birth rate, high death rate"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q5",
+    "week": 9,
+    "question": "Which of the following is listed as a theme of clean technology?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water purification"
+      },
+      {
+        "id": "b",
+        "text": "Predator-prey control"
+      },
+      {
+        "id": "c",
+        "text": "Migration of birds"
+      },
+      {
+        "id": "d",
+        "text": "Food chain length"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q6",
+    "week": 9,
+    "question": "When stalactites and stalagmites join together, they form a?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lagoon"
+      },
+      {
+        "id": "b",
+        "text": "Crevice"
+      },
+      {
+        "id": "c",
+        "text": "Terrace"
+      },
+      {
+        "id": "d",
+        "text": "Column"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q7",
+    "week": 9,
+    "question": "Which of these is a preventive check according to Malthus?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "foresight"
+      },
+      {
+        "id": "b",
+        "text": "vice"
+      },
+      {
+        "id": "c",
+        "text": "misery"
+      },
+      {
+        "id": "d",
+        "text": "flood"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q8",
+    "week": 9,
+    "question": "Which of these is a pillar of sustainability",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "social sustainability"
+      },
+      {
+        "id": "b",
+        "text": "industrial sustainability"
+      },
+      {
+        "id": "c",
+        "text": "agricultural sustainability"
+      },
+      {
+        "id": "d",
+        "text": "trans-boundary sustainability"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q9",
+    "week": 9,
+    "question": "In cave formations, the deposits growing downward from the roof are called?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stalagmites"
+      },
+      {
+        "id": "b",
+        "text": "Columns"
+      },
+      {
+        "id": "c",
+        "text": "Stalactites"
+      },
+      {
+        "id": "d",
+        "text": "Sediment bars"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w9-q10",
+    "week": 9,
+    "question": "Industrial processes such as the Haber process affect which biogeochemical cycle?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Carbon cycle only"
+      },
+      {
+        "id": "b",
+        "text": "Water cycle only"
+      },
+      {
+        "id": "c",
+        "text": "Nitrogen cycle"
+      },
+      {
+        "id": "d",
+        "text": "Phosphorus cycle only"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 9 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q1",
+    "week": 10,
+    "question": "A community already affected by disease, weeds, pollutants, or livestock pressure is best",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pristine community"
+      },
+      {
+        "id": "b",
+        "text": "Climax community"
+      },
+      {
+        "id": "c",
+        "text": "Resistant community"
+      },
+      {
+        "id": "d",
+        "text": "Disturbed community"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q2",
+    "week": 10,
+    "question": "When an organism absorbs a toxic substance into its tissues faster than it loses it, the",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Biomagnification"
+      },
+      {
+        "id": "b",
+        "text": "Bioavailability"
+      },
+      {
+        "id": "c",
+        "text": "Bioaccumulation"
+      },
+      {
+        "id": "d",
+        "text": "Biodegradation"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q3",
+    "week": 10,
+    "question": "What percentage of marine plastic debris is stated to sink to the ocean bottom?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "15%"
+      },
+      {
+        "id": "b",
+        "text": "30%"
+      },
+      {
+        "id": "c",
+        "text": "50%"
+      },
+      {
+        "id": "d",
+        "text": "70%"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q4",
+    "week": 10,
+    "question": "Hydrocarbons derived directly from mineral oils are called:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pyrogenic hydrocarbons"
+      },
+      {
+        "id": "b",
+        "text": "Biogenic hydrocarbons"
+      },
+      {
+        "id": "c",
+        "text": "Aromatic hydrocarbons"
+      },
+      {
+        "id": "d",
+        "text": "Petrogenic hydrocarbons"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q5",
+    "week": 10,
+    "question": "“Any changes in natural or human systems that inadvertently increase vulnerability to",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "adaptation"
+      },
+      {
+        "id": "b",
+        "text": "mitigation"
+      },
+      {
+        "id": "c",
+        "text": "maladaptation"
+      },
+      {
+        "id": "d",
+        "text": "malmitigation"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q6",
+    "week": 10,
+    "question": "A normal ecological community faces one large and infrequent disturbance and then returns",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Long-term alteration"
+      },
+      {
+        "id": "b",
+        "text": "Recovery"
+      },
+      {
+        "id": "c",
+        "text": "Bioaccumulation"
+      },
+      {
+        "id": "d",
+        "text": "Habitat displacement"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q7",
+    "week": 10,
+    "question": "Macrodebris in the context of plastic debris has fragments of size",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "> 20 mm"
+      },
+      {
+        "id": "b",
+        "text": "5 - 20 mm"
+      },
+      {
+        "id": "c",
+        "text": "< 5 mm"
+      },
+      {
+        "id": "d",
+        "text": "< 1 mm"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q8",
+    "week": 10,
+    "question": "The Deepwater Horizon incident is classified by origin as which kind of oil spill?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Natural"
+      },
+      {
+        "id": "b",
+        "text": "Accidental"
+      },
+      {
+        "id": "c",
+        "text": "Intentional"
+      },
+      {
+        "id": "d",
+        "text": "Biogenic"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q9",
+    "week": 10,
+    "question": "Harmful effects caused by a single or short-term exposure are called:",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Chronic toxicity"
+      },
+      {
+        "id": "b",
+        "text": "Acute toxicity"
+      },
+      {
+        "id": "c",
+        "text": "Sub-lethal exposure"
+      },
+      {
+        "id": "d",
+        "text": "Bioavailability"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w10-q10",
+    "week": 10,
+    "question": "Mesodebris in the context of plastic debris has fragments of size",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "> 20 mm"
+      },
+      {
+        "id": "b",
+        "text": "5 - 20 mm"
+      },
+      {
+        "id": "c",
+        "text": "< 5 mm"
+      },
+      {
+        "id": "d",
+        "text": "< 1 mm"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 10 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q1",
+    "week": 11,
+    "question": "Which term refers to the total weight of organisms removed by fishing?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Natural mortality"
+      },
+      {
+        "id": "b",
+        "text": "Recruitment"
+      },
+      {
+        "id": "c",
+        "text": "Growth"
+      },
+      {
+        "id": "d",
+        "text": "Yield to fishery"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q2",
+    "week": 11,
+    "question": "Ludwig's ratchet predicts",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "decreasing harvesting rate"
+      },
+      {
+        "id": "b",
+        "text": "constant harvesting rate"
+      },
+      {
+        "id": "c",
+        "text": "increasing harvesting rate"
+      },
+      {
+        "id": "d",
+        "text": "fluctuating harvesting rate"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q3",
+    "week": 11,
+    "question": "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "recovery"
+      },
+      {
+        "id": "b",
+        "text": "restoration"
+      },
+      {
+        "id": "c",
+        "text": "enhancement"
+      },
+      {
+        "id": "d",
+        "text": "replacement"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q4",
+    "week": 11,
+    "question": "Which of these is correct?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "The maximum sustainable yield is near the beginning of the sigmoidal curve."
+      },
+      {
+        "id": "b",
+        "text": "The maximum sustainable yield is near the mid-point of the sigmoidal curve."
+      },
+      {
+        "id": "c",
+        "text": "The maximum sustainable yield is near the end of the sigmoidal curve."
+      },
+      {
+        "id": "d",
+        "text": "None of these."
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q5",
+    "week": 11,
+    "question": "Which of these is correct?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "R + G = M + F"
+      },
+      {
+        "id": "b",
+        "text": "R + M = G + F"
+      },
+      {
+        "id": "c",
+        "text": "R + F = M + G"
+      },
+      {
+        "id": "d",
+        "text": "R + G + M + F = 0"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q6",
+    "week": 11,
+    "question": "In a logistic growth curve, growth is slow near carrying capacity mainly because the",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "very small"
+      },
+      {
+        "id": "b",
+        "text": "newly introduced"
+      },
+      {
+        "id": "c",
+        "text": "close to the environmental limit"
+      },
+      {
+        "id": "d",
+        "text": "free from competition"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q7",
+    "week": 11,
+    "question": "What does absolute abundance measure?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Relative catch per unit effort"
+      },
+      {
+        "id": "b",
+        "text": "Actual number of individuals present"
+      },
+      {
+        "id": "c",
+        "text": "Percentage change in population"
+      },
+      {
+        "id": "d",
+        "text": "Estimated trend in sightings"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q8",
+    "week": 11,
+    "question": "A root zone treatment plant is an example of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "phytoremediation"
+      },
+      {
+        "id": "b",
+        "text": "biological control"
+      },
+      {
+        "id": "c",
+        "text": "biomagnification"
+      },
+      {
+        "id": "d",
+        "text": "bioaccumulation"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q9",
+    "week": 11,
+    "question": "What is a major risk of introducing predators for pest control?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "The pest always becomes extinct immediately"
+      },
+      {
+        "id": "b",
+        "text": "The predator cannot reproduce under any condition"
+      },
+      {
+        "id": "c",
+        "text": "The predator reduces rainfall"
+      },
+      {
+        "id": "d",
+        "text": "The introduced predator may itself become a pest"
+      }
+    ],
+    "correctOptionIds": [
+      "d"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w11-q10",
+    "week": 11,
+    "question": "Ecotoxicology studies toxic chemicals mainly at which broader levels?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Individual atoms and molecules only"
+      },
+      {
+        "id": "b",
+        "text": "Population, community, ecosystem, and biosphere levels"
+      },
+      {
+        "id": "c",
+        "text": "Market demand and harvesting cost only"
+      },
+      {
+        "id": "d",
+        "text": "Crop yield and storage levels only"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 11 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q1",
+    "week": 12,
+    "question": "In cave formations, the deposits growing downward from the roof are called?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stalagmites"
+      },
+      {
+        "id": "b",
+        "text": "Columns"
+      },
+      {
+        "id": "c",
+        "text": "Stalactites"
+      },
+      {
+        "id": "d",
+        "text": "Sediment bars"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 1",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q2",
+    "week": 12,
+    "question": "Which of these is a deterministic factor?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "environmental variation"
+      },
+      {
+        "id": "b",
+        "text": "forest fire"
+      },
+      {
+        "id": "c",
+        "text": "death rate"
+      },
+      {
+        "id": "d",
+        "text": "diseases"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 2",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q3",
+    "week": 12,
+    "question": "An ecological interaction in which both participating organisms are harmed is called",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "mutualism"
+      },
+      {
+        "id": "b",
+        "text": "commensalism"
+      },
+      {
+        "id": "c",
+        "text": "competition"
+      },
+      {
+        "id": "d",
+        "text": "neutralism"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 3",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q4",
+    "week": 12,
+    "question": "Ecology is the scientific study of",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "statics"
+      },
+      {
+        "id": "b",
+        "text": "interactions"
+      },
+      {
+        "id": "c",
+        "text": "dynamics"
+      },
+      {
+        "id": "d",
+        "text": "habitat"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 4",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q5",
+    "week": 12,
+    "question": "Mesodebris in the context of plastic debris has fragments of size",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "> 20 mm"
+      },
+      {
+        "id": "b",
+        "text": "5 - 20 mm"
+      },
+      {
+        "id": "c",
+        "text": "< 5 mm"
+      },
+      {
+        "id": "d",
+        "text": "< 1 mm"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 5",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q6",
+    "week": 12,
+    "question": "Which level is formed when similar cells and their extracellular matrix from the same origin",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Organ"
+      },
+      {
+        "id": "b",
+        "text": "Tissue"
+      },
+      {
+        "id": "c",
+        "text": "Organ system"
+      },
+      {
+        "id": "d",
+        "text": "Population"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 6",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q7",
+    "week": 12,
+    "question": "Secondary succession refers to succession that occurs",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "On newly exposed rock or sand surfaces"
+      },
+      {
+        "id": "b",
+        "text": "In a saline body such as a marsh"
+      },
+      {
+        "id": "c",
+        "text": "After severe disturbance or removal of a pre-existing community"
+      },
+      {
+        "id": "d",
+        "text": "Only when climate controls the final community"
+      }
+    ],
+    "correctOptionIds": [
+      "c"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 7",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q8",
+    "week": 12,
+    "question": "A group of organs working together to perform one or more functions is called?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tissue"
+      },
+      {
+        "id": "b",
+        "text": "Organ"
+      },
+      {
+        "id": "c",
+        "text": "Organism"
+      },
+      {
+        "id": "d",
+        "text": "Organ system"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 8",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q9",
+    "week": 12,
+    "question": "After a forest fire, an incompletely destroyed forest develops through herbaceous, shrub",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Secondary succession"
+      },
+      {
+        "id": "b",
+        "text": "Climatic climax"
+      },
+      {
+        "id": "c",
+        "text": "Bioaccumulation"
+      },
+      {
+        "id": "d",
+        "text": "Species-area effect"
+      }
+    ],
+    "correctOptionIds": [
+      "a"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 9",
+    "tags": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "w12-q10",
+    "week": 12,
+    "question": "If organisms already present in an area change the soil conditions and thereby drive further",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Allogenic succession"
+      },
+      {
+        "id": "b",
+        "text": "Autogenic succession"
+      },
+      {
+        "id": "c",
+        "text": "Catastrophic succession"
+      },
+      {
+        "id": "d",
+        "text": "Seasonal succession"
+      }
+    ],
+    "correctOptionIds": [
+      "b"
+    ],
+    "explanation": "",
+    "sourceReference": "Wildlife Ecology Assignment 12 Solutions.pdf, question 10",
+    "tags": [],
+    "verificationStatus": "verified"
+  }
+]
