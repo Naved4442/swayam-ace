@@ -12,6 +12,7 @@ SWAYAM ACE is a static-first Wildlife Ecology study product for preparing with t
 - **Responsive UI:** desktop sidebar and compact mobile navigation for small screens.
 - **Themes:** light/dark theme toggle with system preference used on the first visit and explicit choices persisted locally.
 - **Offline-friendly architecture:** the question bank is bundled into the static application; no runtime API is required for answering questions.
+- **Optional cloud accounts:** Supabase Auth and an RLS-protected progress row provide private cross-device sync when configured.
 
 ## Technology
 
@@ -58,6 +59,8 @@ npm run preview          # serve the production build locally
 ├── src/App.tsx                  # application shell and study flows
 ├── src/styles.css               # responsive design system and themes
 ├── src/data/questions.json      # generated browser question bank
+├── src/lib/supabase.ts         # optional browser-safe Supabase client
+├── supabase/migrations/        # Auth-linked progress table and RLS policies
 ├── scripts/import-question-bank.mjs
 ├── scripts/question-bank.test.mjs
 ├── SOURCE-VALIDATION.md
@@ -75,7 +78,17 @@ The browser never parses the original PDFs at runtime. The generated bank is pub
 
 ## Data and Privacy
 
-Attempts, bookmarks, theme selection, and related progress are stored in browser `localStorage`. Progress does not sync between devices and no account or backend is required. Clearing site data can remove saved progress. The app does not store passwords, API keys, or sensitive personal information.
+Without Supabase configuration, attempts, bookmarks, theme selection, and related progress remain in browser `localStorage`. With an account, history, bookmarks, streak metadata, and revision-derived progress sync to that user’s private cloud row. The question bank remains public and static.
+
+### Supabase setup
+
+1. Create a free Supabase project and enable Email Auth. Keep email confirmation enabled for production.
+2. In the Supabase SQL Editor, run `supabase/migrations/20261017000000_create_progress.sql`. The migration enables RLS and restricts every operation on `public.progress` to `auth.uid() = user_id`.
+3. Copy `.env.example` to `.env.local` and fill in the project URL and browser-safe anon key from Supabase Project Settings > API. Never use a service-role key in Vite or commit `.env.local`.
+4. Configure the deployed site URL and redirect URL in Supabase Authentication > URL Configuration. For local development, add `http://localhost:5173` and the Vite URL you use.
+5. Run `npm run dev`, register an account, confirm the email if required, and sign in. Existing anonymous local progress is not copied into a new account automatically; this prevents accidental cross-user data disclosure.
+
+The client checks the cloud row before saving and loads a newer remote `updated_at` value instead of overwriting it with stale state. RLS is the authorization boundary; the frontend never supplies a trusted user ID for access decisions. Account sync and isolation require a configured Supabase project and must be tested against that project’s policies.
 
 ## Cloudflare Pages Deployment
 
@@ -87,15 +100,16 @@ This is a Vite static site and does not require a server-side API.
    - **Build command:** `npm run build`
    - **Build output directory:** `dist`
    - **Node version:** 18 or newer
+   - **Environment variables:** `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` if cloud accounts are enabled
 4. Save and deploy.
 
-The generated `dist/` directory is ignored by Git because Cloudflare Pages builds it from the repository. No environment variables are required for the current release.
+The generated `dist/` directory is ignored by Git because Cloudflare Pages builds it from the repository. Environment variables are optional for local-only mode and required for Supabase accounts.
 
 ## Known Limitations
 
 - Explanations are empty because the supplied solution papers provide answer choices and authoritative markers, not verified explanatory prose.
 - The current mock-test entry point shares the tested question-session presentation but does not yet implement a timer, review palette, or persisted exam deadline.
-- Progress is local to one browser and is not an account-backed sync service.
+- Without Supabase environment variables, progress is local to one browser and is not an account-backed sync service.
 - PDF extraction depends on the source layout and should be rerun and reviewed when the source PDFs change.
 
 
