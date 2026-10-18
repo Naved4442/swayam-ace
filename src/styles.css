@@ -183,3 +183,100 @@ html, body, #root { width:100%; max-width:100%; overflow-x:hidden; }
   .result-header { flex-wrap:wrap; }
   .result-badge { margin-left:0; }
 }
+
+/* ── Multi-week selector ─────────────────────────────────────────── */
+.week-picker {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.week-picker > strong {
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.week-picker-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.week-checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.week-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 11px 10px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color .15s ease, background .15s ease;
+}
+
+.week-checkbox:has(input:checked) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.week-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+  margin: 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.week-checkbox span {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--ink);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.week-checkbox small {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.week-picker > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+:root[data-theme='dark'] .week-checkbox {
+  background: var(--surface);
+  border-color: var(--line);
+}
+
+:root[data-theme='dark'] .week-checkbox:has(input:checked) {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .week-checkbox-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .week-checkbox {
+    padding: 10px 8px;
+    gap: 6px;
+  }
+}
+

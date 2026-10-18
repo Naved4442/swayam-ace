@@ -58,6 +58,7 @@ export default function App() {
     JSON.parse(localStorage.getItem('swayam-answers') || '{}')
   )
   const [sessionSelections, setSessionSelections] = useState<Record<string, string>>({})
+  const [optionOrder, setOptionOrder] = useState<Record<string, string[]>>({})
   const [mode, setMode] = useState<'practice' | 'test'>('practice')
   const [testSubmitted, setTestSubmitted] = useState(false)
 
@@ -157,6 +158,29 @@ export default function App() {
     if (!selected.length) return // Guard: never start with empty set
     const ordered = shuffle ? [...selected].sort(() => Math.random() - 0.5) : selected
     const chosen = ordered.map((q) => q.id)
+    // Shuffle answer positions for every new session without changing the answer IDs.
+    const nextOptionOrder: Record<string, string[]> = {}
+    for (const question of ordered) {
+      const correctId = question.correctOptionIds[0]
+      const shuffledIds = [...question.options]
+        .sort(() => Math.random() - 0.5)
+        .map((option) => option.id)
+
+      // If this question was seen in the previous session, make sure its
+      // correct answer does not stay in the same displayed letter position.
+      const previousIds = optionOrder[question.id]
+      if (previousIds && shuffledIds.length > 1) {
+        const previousCorrectPosition = previousIds.indexOf(correctId)
+        const nextCorrectPosition = shuffledIds.indexOf(correctId)
+        if (previousCorrectPosition === nextCorrectPosition) {
+          const swapPosition = (nextCorrectPosition + 1) % shuffledIds.length
+          ;[shuffledIds[nextCorrectPosition], shuffledIds[swapPosition]] =
+            [shuffledIds[swapPosition], shuffledIds[nextCorrectPosition]]
+        }
+      }
+      nextOptionOrder[question.id] = shuffledIds
+    }
+    setOptionOrder(nextOptionOrder)
     setMode(nextMode)
     setSession(chosen)
     setIndex(0)
@@ -250,6 +274,10 @@ export default function App() {
     setView('home')
   }
 
+  function finishPractice() {
+    setTestSubmitted(true)
+  }
+
   if (!authReady) return <div className="auth-loading">Loading account...</div>
 
   const accountPanel = (
@@ -264,8 +292,8 @@ export default function App() {
     />
   )
 
-  // Test results view
-  if (session && testSubmitted && mode === 'test') {
+  // Final results view for both Practice and Mock Test
+  if (session && testSubmitted) {
     return (
       <div className="app-root">
         {accountPanel}
@@ -273,6 +301,8 @@ export default function App() {
           session={session}
           answers={answers}
           bank={bank}
+          optionOrder={optionOrder}
+          mode={mode}
           view={view}
           dark={dark}
           setDark={setDark}
@@ -291,6 +321,7 @@ export default function App() {
         {accountPanel}
         <SessionView
           current={current}
+          optionOrder={optionOrder[current.id] || current.options.map((option) => option.id)}
           index={index}
           total={session.length}
           selected={answers[current.id]}
@@ -305,6 +336,7 @@ export default function App() {
           onPrevious={() => setIndex((v) => v - 1)}
           onNext={() => setIndex((v) => v + 1)}
           onFinish={finish}
+          onPracticeFinish={finishPractice}
           onSubmitTest={submitTest}
         />
       </div>
@@ -442,10 +474,17 @@ function HomeView({
           <h1>Make the next answer <em>stick.</em></h1>
           <p>Build exam confidence through deliberate practice, clean feedback, and a question bank grounded in the supplied Wildlife Ecology solution papers.</p>
           <div className="hero-actions">
-            <button className="button primary" onClick={() => start('practice')}>
+            <button
+              className="button primary"
+              onClick={() => setView('practice')}
+            >
               <Play size={18} /> Start practice
             </button>
-            <button className="button secondary" onClick={() => start('test')}>
+
+            <button
+              className="button secondary"
+              onClick={() => setView('tests')}
+            >
               <Target size={18} /> Quick test
             </button>
           </div>
@@ -525,16 +564,27 @@ function ConfigView({
   bank: Question[]
   onStart: (selected: Question[], shuffle: boolean) => void
 }) {
-  const [scope, setScope] = useState<'all' | number>('all')
+  const availableWeeks = [...new Set(bank.map((q) => q.week))].sort((a, b) => a - b)
+  const [selectedWeeks, setSelectedWeeks] = useState<number[]>(availableWeeks)
   const [shuffle, setShuffle] = useState(false)
 
-  const selected = scope === 'all' ? bank : bank.filter((q) => q.week === scope)
+  const selected = bank.filter((q) => selectedWeeks.includes(q.week))
   const isEmpty = selected.length === 0
+  const allSelected = availableWeeks.length > 0 && availableWeeks.every((week) => selectedWeeks.includes(week))
 
-  // Build scope label for the summary
-  const scopeLabel = scope === 'all'
-    ? 'All 12 weeks'
-    : `Week ${scope}`
+  const scopeLabel = allSelected
+    ? `All ${availableWeeks.length} weeks`
+    : selectedWeeks.length
+      ? `Weeks ${[...selectedWeeks].sort((a, b) => a - b).join(', ')}`
+      : 'No weeks selected'
+
+  function toggleWeek(week: number) {
+    setSelectedWeeks((previous) =>
+      previous.includes(week)
+        ? previous.filter((w) => w !== week)
+        : [...previous, week].sort((a, b) => a - b)
+    )
+  }
 
   function handleStart() {
     if (!isEmpty) onStart(selected, shuffle)
@@ -549,12 +599,11 @@ function ConfigView({
       </section>
 
       <section className="config-panel">
-        {/* Left: summary */}
         <div className="config-info">
           {isEmpty ? (
             <div className="config-empty">
               <AlertCircle size={20} />
-              <span>No questions found for this selection. Try a different scope.</span>
+              <span>No questions found for this selection. Select at least one week.</span>
             </div>
           ) : (
             <>
@@ -562,34 +611,84 @@ function ConfigView({
               <h2>{selected.length} question{selected.length !== 1 ? 's' : ''} selected</h2>
               <p>
                 {scopeLabel}
-                {scope !== 'all' && ` · ${stableLabel(selected[0])} – ${stableLabel(selected[selected.length - 1])}`}
-                {mode === 'test' ? ' · Answers hidden until submission.' : ' · Instant feedback after each answer.'}
+                {selected.length > 0 && !allSelected && selectedWeeks.length === 1
+                  ? ` · ${stableLabel(selected[0])} – ${stableLabel(selected[selected.length - 1])}`
+                  : ''}
+                {mode === 'test'
+                  ? ' · Answers hidden until submission.'
+                  : ' · Instant feedback after each answer.'}
               </p>
             </>
           )}
         </div>
 
-        {/* Right: controls */}
         <div className="config-controls">
-          <label htmlFor="scope-select">
-            Scope
-            <select
-              id="scope-select"
-              value={scope === 'all' ? 'all' : String(scope)}
-              onChange={(e) => setScope(e.target.value === 'all' ? 'all' : Number(e.target.value))}
-            >
-              <option value="all">All 12 weeks (120 Q)</option>
-              {Array.from({ length: 12 }, (_, i) => (
-                <option key={i} value={i + 1}>
-                  Week {i + 1} (10 Q)
-                </option>
-              ))}
-            </select>
-          </label>
+          <div className="week-picker">
+            <strong>Choose one or more weeks</strong>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+              <button
+                type="button"
+                className="text-button"
+                onClick={() => setSelectedWeeks(availableWeeks)}
+              >
+                Select all
+              </button>
+              <button
+                type="button"
+                className="text-button"
+                onClick={() => setSelectedWeeks([])}
+              >
+                Clear all
+              </button>
+            </div>
 
-          <label className="shuffle-row" htmlFor="shuffle-toggle">
+            <div
+              className="week-checkbox-grid"
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 135px), 1fr))',
+                gap: 8,
+                marginTop: 12,
+              }}
+            >
+              {availableWeeks.map((week) => {
+                const count = bank.filter((q) => q.week === week).length
+                const checked = selectedWeeks.includes(week)
+                return (
+                  <label
+                    key={week}
+                    className="week-checkbox"
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: 8,
+                      minWidth: 0,
+                      padding: 10,
+                      border: '1px solid var(--border, #ead6dc)',
+                      borderRadius: 12,
+                      cursor: 'pointer',
+                      background: checked ? 'var(--selected-bg, rgba(236, 128, 151, 0.12))' : 'transparent',
+                    }}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={checked}
+                      onChange={() => toggleWeek(week)}
+                    />
+                    <span style={{ flex: 1 }}>Week {week}</span>
+                    <small>{count} Q</small>
+                  </label>
+                )
+              })}
+            </div>
+            <p aria-live="polite">
+              {selected.length} question{selected.length === 1 ? '' : 's'} selected
+            </p>
+          </div>
+
+          <label className="shuffle-row" htmlFor={`shuffle-toggle-${mode}`}>
             <input
-              id="shuffle-toggle"
+              id={`shuffle-toggle-${mode}`}
               type="checkbox"
               checked={shuffle}
               onChange={(e) => setShuffle(e.target.checked)}
@@ -600,7 +699,7 @@ function ConfigView({
 
           <div className="section-note">
             <CircleHelp size={13} />
-            <span>Section-level filtering is unavailable — source PDFs supply no section headings beyond the week number.</span>
+            <span>Section filtering is unavailable because the source PDFs do not provide verified section mappings.</span>
           </div>
 
           <button
@@ -616,7 +715,6 @@ function ConfigView({
     </>
   )
 }
-
 // ---------------------------------------------------------------------------
 // RevisionView
 // ---------------------------------------------------------------------------
@@ -746,10 +844,11 @@ function Empty({ icon, title, text }: { icon: React.ReactNode; title: string; te
 // SessionView — Practice and Test (pre-submission)
 // ---------------------------------------------------------------------------
 function SessionView({
-  current, index, total, selected, mode, view, dark, setDark, setView,
-  bookmarks, setBookmarks, onSelect, onPrevious, onNext, onFinish, onSubmitTest,
+  current, optionOrder, index, total, selected, mode, view, dark, setDark, setView,
+  bookmarks, setBookmarks, onSelect, onPrevious, onNext, onFinish, onPracticeFinish, onSubmitTest,
 }: {
   current: Question
+  optionOrder: string[]
   index: number
   total: number
   selected?: string
@@ -764,6 +863,7 @@ function SessionView({
   onPrevious: () => void
   onNext: () => void
   onFinish: () => void
+  onPracticeFinish: () => void
   onSubmitTest: () => void
 }) {
   const isPractice = mode === 'practice'
@@ -771,6 +871,9 @@ function SessionView({
   const explanation = current.explanation.trim() ||
     `No verified explanation text was supplied for this question. The verified answer is recorded in ${current.sourceReference}.`
   const isLastQuestion = index === total - 1
+  const orderedOptions = optionOrder
+    .map((id) => current.options.find((option) => option.id === id))
+    .filter((option): option is Question['options'][number] => Boolean(option))
 
   return (
     <Shell view={view} setView={setView} dark={dark} setDark={setDark}>
@@ -807,7 +910,7 @@ function SessionView({
           <h2>{current.question}</h2>
 
           <div className="options" role="radiogroup" aria-label="Answer options">
-            {current.options.map((option) => {
+            {orderedOptions.map((option, optionIndex) => {
               const optionIsCorrect = isPractice && selected && option.id === current.correctOptionIds[0]
               const optionIsIncorrect = isPractice && selected === option.id && !isCorrect
               return (
@@ -822,7 +925,7 @@ function SessionView({
                     checked={selected === option.id}
                     onChange={() => onSelect(current, option.id)}
                   />
-                  <span className="option-key">{option.id.toUpperCase()}</span>
+                  <span className="option-key">{String.fromCharCode(65 + optionIndex)}</span>
                   <span className="option-text">{option.text}</span>
                   {optionIsCorrect && <Check size={18} aria-label="Correct answer" />}
                   {optionIsIncorrect && <span className="option-status" aria-label="Selected incorrect answer">!</span>}
@@ -858,8 +961,8 @@ function SessionView({
 
           {isPractice ? (
             isLastQuestion ? (
-              <button className="button primary" onClick={onFinish}>
-                Finish session <Trophy size={18} />
+              <button className="button primary" onClick={onPracticeFinish}>
+                View results <Trophy size={18} />
               </button>
             ) : (
               <button className="button primary" disabled={!selected} onClick={onNext}>
@@ -887,11 +990,13 @@ function SessionView({
 // TestResultsView — shown after test submission
 // ---------------------------------------------------------------------------
 function TestResultsView({
-  session, answers, bank, view, dark, setDark, setView, onFinish, onPracticeWrong,
+  session, answers, bank, optionOrder, mode, view, dark, setDark, setView, onFinish, onPracticeWrong,
 }: {
   session: string[]
   answers: Record<string, string>
   bank: Question[]
+  optionOrder: Record<string, string[]>
+  mode: 'practice' | 'test'
   view: View
   dark: boolean
   setDark: (v: boolean) => void
@@ -905,14 +1010,15 @@ function TestResultsView({
   const pct = scoreTotal ? Math.round(scoreCorrect / scoreTotal * 100) : 0
   const wrongQuestions = sessionQuestions.filter((q) => answers[q.id] && answers[q.id] !== q.correctOptionIds[0])
   const unanswered = sessionQuestions.filter((q) => !answers[q.id])
+  const incorrectCount = wrongQuestions.length + unanswered.length
 
   return (
     <Shell view={view} setView={setView} dark={dark} setDark={setDark}>
       <main className="content">
         <div className="session-head">
           <div>
-            <span className="eyebrow">Test complete</span>
-            <h1>Your results</h1>
+            <span className="eyebrow">{mode === 'practice' ? 'Practice complete' : 'Test complete'}</span>
+            <h1>{mode === 'practice' ? 'Practice results' : 'Your results'}</h1>
           </div>
           <button className="button ghost" onClick={onFinish}>Go home</button>
         </div>
@@ -932,13 +1038,18 @@ function TestResultsView({
               <span className="score-den">{scoreTotal}</span>
               <span className="score-label"> correct</span>
             </div>
+            <div className="result-summary-counts" style={{ display: 'flex', flexWrap: 'wrap', gap: 12, margin: '12px 0 18px' }}>
+              <span><strong>{scoreCorrect}</strong> correct</span>
+              <span><strong>{wrongQuestions.length}</strong> incorrect</span>
+              <span><strong>{unanswered.length}</strong> unanswered</span>
+            </div>
             {unanswered.length > 0 && (
-              <p className="score-unanswered">{unanswered.length} question{unanswered.length > 1 ? 's' : ''} left unanswered (marked incorrect)</p>
+              <p className="score-unanswered">{unanswered.length} question{unanswered.length > 1 ? 's' : ''} left unanswered</p>
             )}
             <div className="score-actions">
-              {wrongQuestions.length > 0 && (
-                <button className="button secondary" onClick={() => onPracticeWrong(wrongQuestions)}>
-                  <RotateCcw size={16} /> Practice {wrongQuestions.length} wrong answer{wrongQuestions.length > 1 ? 's' : ''}
+              {incorrectCount > 0 && (
+                <button className="button secondary" onClick={() => onPracticeWrong([...wrongQuestions, ...unanswered])}>
+                  <RotateCcw size={16} /> Retry {incorrectCount} question{incorrectCount > 1 ? 's' : ''}
                 </button>
               )}
               <button className="button primary" onClick={onFinish}>
@@ -956,6 +1067,9 @@ function TestResultsView({
             const isCorrect = sel === q.correctOptionIds[0]
             const selectedOption = q.options.find((o) => o.id === sel)
             const correctOption = q.options.find((o) => o.id === q.correctOptionIds[0])
+            const orderedIds = optionOrder[q.id] || q.options.map((option) => option.id)
+            const selectedLetter = sel ? String.fromCharCode(65 + Math.max(0, orderedIds.indexOf(sel))) : ''
+            const correctLetter = String.fromCharCode(65 + Math.max(0, orderedIds.indexOf(q.correctOptionIds[0])))
             const explanation = q.explanation.trim() ||
               `Verified answer is recorded in ${q.sourceReference}.`
             return (
@@ -971,11 +1085,11 @@ function TestResultsView({
                 <div className="result-answers">
                   {!isCorrect && sel && (
                     <span className="result-ans wrong-ans">
-                      Your answer: <strong>{sel.toUpperCase()}. {selectedOption?.text}</strong>
+                      Your answer: <strong>{selectedLetter}. {selectedOption?.text}</strong>
                     </span>
                   )}
                   <span className="result-ans correct-ans">
-                    Correct: <strong>{q.correctOptionIds[0].toUpperCase()}. {correctOption?.text}</strong>
+                    Correct: <strong>{correctLetter}. {correctOption?.text}</strong>
                   </span>
                 </div>
                 <div className="explanation result-explanation">
